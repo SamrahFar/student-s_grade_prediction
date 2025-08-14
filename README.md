@@ -46,8 +46,7 @@ This project implements a regression model to predict a student's final grade us
 ├── executive_summary.pdf       # Executive summary report with findings and plots
 ├── requirements.txt            # Python dependencies required to run the notebook
 ├── README.md                   # Project documentation (this file)
-└── src/
-    └── utils.py                # Utility functions (data processing, evaluation, etc.)
+
 ```
 
 ---
