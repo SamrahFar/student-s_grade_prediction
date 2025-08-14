@@ -34,17 +34,18 @@ This project implements a regression model to predict a student's final grade us
 
 ```
 .
-├── notebooks/
-│   └── Final_project.ipynb      # Main Jupyter notebook for data analysis and modeling
+
 ├── data/
 │   └── student-mat.csv         # Student dataset (input features and target)
-├── requirements.txt            # Python dependencies required to run the notebook
-├── README.md                   # Project documentation (this file)
+├── notebooks/
+│   └── Final_project.ipynb      # Main Jupyter notebook for data analysis and modeling
 ├── plots/                      # Saved matplotlib/seaborn figures for reporting
 │   ├── boxplot.png
 │   ├── histogram.png
 │   └── correlation_scatter_plot.png
 ├── executive_summary.pdf       # Executive summary report with findings and plots
+├── requirements.txt            # Python dependencies required to run the notebook
+├── README.md                   # Project documentation (this file)
 └── src/
     └── utils.py                # Utility functions (data processing, evaluation, etc.)
 ```
