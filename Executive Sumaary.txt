@@ -1,0 +1,23 @@
+Executive Summary
+This project aims to develop a predictive model for student performance based on a diverse set of academic and socio-demographic features. By accurately forecasting final grades, targeted interventions can be implemented to enhance student outcomes and engagement. The task is framed as a supervised regression problem, utilizing labeled data to predict a continuous target variable (final grade, G3).
+The dataset, sourced from two Portuguese schools, contains 395 records and 35 attributes gathered through school reports and structured questionnaires. Data preprocessing addressed missing values, outliers, skewed distributions, and feature inconsistencies. The variables include categorical, ordinal, and numerical types, with G1 (first term grade) and G2 (second term grade) showing strong correlations with G3. 
+
+Two predictive approaches were evaluated:
+Including G1 and G2 - to maximize prediction accuracy.
+Excluding G1 and G2 - to enable early-term predictions before first-term results are available.
+
+Exploratory Data Analysis (EDA) employed boxplots, histograms, and scatter plots to assess variable distributions, detect outliers, and examine correlations. Feature selection prioritized attributes with meaningful relationships to the target variable.
+
+Three regression models were implemented and evaluated:
+Linear Regression - Provided the most accurate predictions, with stable performance in cross-validation.
+Support Vector Machine (SVM) Regression - Captured complex patterns but underperformed without extensive hyperparameter tuning.
+Lasso Regression - Offered effective regularization, reducing overfitting by penalizing less significant features.
+Evaluation metrics included Root Mean Squared Error (RMSE) and Rý score to quantify prediction accuracy. The Linear Regression model consistently outperformed others, particularly when G1 and G2 were included (RMSE ? 2.23, Rý ? 0.76). Even without these features, the model retained practical utility for early intervention, albeit with reduced accuracy.
+
+Key Insights:
+Academic performance is strongly influenced by prior term grades, attendance, and study-related factors.
+Early identification of at-risk students is feasible using socio-demographic and behavioral indicators.
+Additional academic support-targeted at students with high absence rates or previous failures-can improve year-round performance.
+
+Conclusion:
+Linear Regression is recommended for implementation due to its predictive accuracy, interpretability, and stability. By integrating these predictions into school support systems, educators can make informed decisions to provide timely assistance, ultimately enhancing student success and reducing dropout risks.
