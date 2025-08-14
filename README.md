@@ -1,6 +1,6 @@
 # Student Grade Prediction - Academic Machine Learning Project
 
-Welcome to the Student Grade Prediction project! This repository contains a machine learning solution for predicting student performance based on various features. The goal is to help educational institutions identify students who may benefit from additional support and interventions.
+Welcome to the Student Grade Prediction project! This repository contains a machine learning solution for predicting student performance based on various features. The goal is to help educational inst[...]
 
 ---
 
@@ -20,13 +20,13 @@ Welcome to the Student Grade Prediction project! This repository contains a mach
 
 ## Academic Purpose
 
-This repository was developed as part of an academic machine learning project. Its primary aim is to demonstrate the end-to-end application of data science and machine learning methods in an educational context. The work includes data analysis, model building, evaluation, and reporting, following best practices in academic research. Results and insights are intended for learning, teaching, and research purposes.
+This repository was developed as part of an academic machine learning project. Its primary aim is to demonstrate the end-to-end application of data science and machine learning methods in an education[...]
 
 ---
 
 ## Project Overview
 
-This project implements a regression model to predict a student's final grade using data from a large Portuguese school system. The workflow includes data loading, exploratory analysis, visualization, cleaning, feature engineering, model training, and evaluation.
+This project implements a regression model to predict a student's final grade using data from a large Portuguese school system. The workflow includes data loading, exploratory analysis, visualization,[...]
 
 ---
 
@@ -34,15 +34,19 @@ This project implements a regression model to predict a student's final grade us
 
 ```
 .
-├── _Final_project.ipynb     # Main Jupyter notebook for data analysis and modeling
-├── student-mat.csv         # Student data set (input features and target)
-├── README.md               # Project documentation (this file)
-├── requirements.txt        # Python dependencies required to run the notebook
-├── plots/                  # Saved matplotlib/seaborn figures for reporting
+├── notebooks/
+│   └── Final_project.ipynb      # Main Jupyter notebook for data analysis and modeling
+├── data/
+│   └── student-mat.csv         # Student dataset (input features and target)
+├── requirements.txt            # Python dependencies required to run the notebook
+├── README.md                   # Project documentation (this file)
+├── plots/                      # Saved matplotlib/seaborn figures for reporting
 │   ├── boxplot.png
 │   ├── histogram.png
-│   └── correlation_scatter plot.png
-└── executive_summary.pdf   # Executive summary report with findings and plots
+│   └── correlation_scatter_plot.png
+├── executive_summary.pdf       # Executive summary report with findings and plots
+└── src/
+    └── utils.py                # Utility functions (data processing, evaluation, etc.)
 ```
 
 ---
@@ -65,13 +69,13 @@ pip install -r requirements.txt
     ```bash
     jupyter notebook
     ```
-2. Open `final_project.ipynb` and run cells sequentially.
+2. Open `notebooks/Final_project.ipynb` and run cells sequentially.
 
 ---
 
 ## Data Description
 
-The dataset (`student-mat.csv`) includes demographic, social, and academic information for students. Features include:
+The dataset (`data/student-mat.csv`) includes demographic, social, and academic information for students. Features include:
 
 - Categorical: sex, school, address, family background, parental education, etc.
 - Numerical: age, absences, grades (G1, G2, G3), study time, failures, and more.
@@ -106,3 +110,5 @@ For questions or collaboration, please contact:
 ---
 
 *This repository was developed as a professional, academic machine learning project. For further details, see the executive summary and the main notebook.*
+
+```
