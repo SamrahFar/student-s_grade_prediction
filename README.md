@@ -12,8 +12,7 @@ Welcome to the Student Grade Prediction project! This repository contains a mach
 4. [Data Description](#data-description)
 5. [Usage](#usage)
 6. [Contributing](#contributing)
-7. [License](#license)
-8. [Contact](#contact)
+7. [Contact](#contact)
 
 
 ---
@@ -103,6 +102,6 @@ For questions or collaboration, please contact:
 - **LinkedIn:** https://www.linkedin.com/in/samrah-farukh-673986370/
 ---
 
-*This repository was developed as a professional, academic machine learning project. For further details, see the executive summary and the main notebook.*
+*This repository was developed as a professional machine learning project. For further details, see the executive summary and the main notebook.*
 
 ```
