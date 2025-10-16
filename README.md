@@ -1,4 +1,4 @@
-# Student Grade Prediction - Academic Machine Learning Project
+# Student Grade Prediction - Machine Learning Project
 
 Welcome to the Student Grade Prediction project! This repository contains a machine learning solution for predicting student performance based on various features. The goal is to help educational inst[...]
 
