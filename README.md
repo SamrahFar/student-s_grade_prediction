@@ -6,21 +6,15 @@ Welcome to the Student Grade Prediction project! This repository contains a mach
 
 ## Table of Contents
 
-1. [Academic Purpose](#academic-purpose)
-2. [Project Overview](#project-overview)
-3. [Repository Structure](#repository-structure)
-4. [Getting Started](#getting-started)
-5. [Data Description](#data-description)
-6. [Usage](#usage)
-7. [Contributing](#contributing)
-8. [License](#license)
-9. [Contact](#contact)
+1. [Project Overview](#project-overview)
+2. [Repository Structure](#repository-structure)
+3. [Getting Started](#getting-started)
+4. [Data Description](#data-description)
+5. [Usage](#usage)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Contact](#contact)
 
----
-
-## Academic Purpose
-
-This repository was developed as part of an academic machine learning project. Its primary aim is to demonstrate the end-to-end application of data science and machine learning methods in an education[...]
 
 ---
 
